@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "We can search restaurants by food",
+    "githubUrl": "https://github.com/singhonscreen/react-native-Restaurant_Search"
   }
 }

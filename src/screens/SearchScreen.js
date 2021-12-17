@@ -14,7 +14,7 @@ const SearchScreen = ({navigation}) => {
       }
    
     return (
-        <View style={{flex:1}}>
+        <View style={{flex:1,backgroundColor:"#fff"}}>
           <SearchBar term={term} onTermChange ={setTerm}
           onTermSubmit = {()=>searchApi(term)} />
           {errorMessage ? <Text>{errorMessage}</Text> :null}
